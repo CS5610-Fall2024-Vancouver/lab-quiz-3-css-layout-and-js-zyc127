@@ -1,0 +1,66 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    margin: 20px; 
+}
+
+.grid-item {
+    background-color: lightblue; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.flex-container {
+    display: flex; 
+    justify-content: space-around; 
+    margin: 20px; 
+}
+
+.flex-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.positioned-container {
+    position: relative;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.positioned-element {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.float-left {
+    float: left;
+    width: 25%;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.center-section {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+.float-right {
+    float: right;
+    width: 25%;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.float-container {
+    margin: 20px;
+    border: 1px solid #ccc
+}
